@@ -3,20 +3,200 @@ h1 {
     font-family: 'Indie Flower', cursive;
 }
 
-h2 { color:aqua;
+h2 { color:darkolivegreen;
     font-family: 'Indie Flower', cursive;
 }
 
 
-h3 {color:blueviolet;
+h3 {
+    color:blueviolet;
 }
 
 h4 {
     color: forestgreen;
 }
+
 p {
-    color: brown;
+    color: darkslategrey;
     font-size: 1.5 em;
+    line-height: 1.5 em;
    
+}
+header {
+      background-color: white;
+      height: 110px;
+      display: flex;
+      justify-content: space-between;
 
 }
+
+main {
+    /*height: 530px;*/
+    padding: 24px;
+    
+    background-color: #05a72c;
+    justify-content: space-around;
+    /*background-color: rgba(5, 167, 44,o.4); */
+
+}
+
+div {
+    /*border: 1px red solid;*/
+
+}
+
+footer {
+    /*height: 850pt;*/
+    background-color: #eee;
+
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+.txtJustify {
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li 
+{
+    display: inline-block;
+    padding: 4px 8px;
+
+}
+
+li a
+
+{
+    display: inline;
+    padding: 40%;
+
+}
+
+.headtest {
+    color: orangered;
+}
+
+.icon-red {
+    color: red;
+
+}
+
+.bkColorGray {
+    background-color: #f7f7f7;
+}
+.bkSizeLarge {
+    /* height: 750px; */
+    padding: 24px;
+}
+
+.imgRounded {
+        border-radius: 50%;
+        background-image: url("../images/yoga.jpg");
+        width: 100px;
+        height: 100px;
+        background-color: azure;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 0;
+        display: block;
+        margin: 0 auto;
+    
+
+        /* margin-left:auto;
+        margi-right:auto;
+        width: 30% */
+    
+
+}
+
+a {
+    padding: 10px 50px;
+    /* padding-top: 50px: */
+    margin: 30px;
+    border: 30px;
+
+
+}
+
+a:link {
+  text-decoration: none;
+  color: darkslategray;
+
+}
+
+a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+   color: aquamarine;
+   text-decoration: underline;
+}
+a:active {
+   color: yellow;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.col {
+    /* float: left;*/
+    padding: 48px 16px;
+    /*border: 1px solid green;
+    width: 30%;*/
+
+}
+
+.logoEvernote {
+    background-image: url("../Images/evernote_logo.png");
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+
+
+}
+
+.button-outline {
+    display: inline-block;
+    height: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid green;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: calc(100%/6);
+}
+/*.col-4 {width: 33.33%;}*/
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
